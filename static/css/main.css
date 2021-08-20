@@ -1,0 +1,137 @@
+/* CSS STYLES */
+
+body {
+    background-color: black
+}
+
+/* HEADER + NAVBAR */
+
+.navbar {
+    display: flex;
+    overflow: hidden;
+    background-color: black;
+    float: left;
+}
+
+.item2 {
+    float: right;
+}
+
+.navbar a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.item1 {
+    float: left;
+}
+
+.item2 {
+    float: right;
+}
+
+.navbar a:hover {
+    background-color: #0f0f0f;
+    color: white;
+    border-radius: 5px
+}
+
+.banner {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* FOOTER */
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.extra {
+    color: white;
+    width: 300px;
+    min-height: 200;
+    margin: 10px
+}
+
+h5 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.map {
+    width: 150px;
+    min-height: 200px;
+    margin: 10px;
+}
+
+/*SALES ITEMS */
+
+.flex-container {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.date {
+    width: 60%;
+    height: 25px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid gray;
+    padding-left: 30px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-auto-rows: minmax (150px, auto);
+}
+
+.sale-item {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.text {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+article {
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    background-image: linear-gradient( rgb(231, 180, 50), hsl(51, 70%, 56%));
+    color: white;
+    border-color: rgb(231, 200, 26);
+    border-radius: 2px;
+    align-self: center
+
+}
